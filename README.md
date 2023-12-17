@@ -29,3 +29,7 @@ docker run -d --rm -p 3000:3000 -p 15432:5432 --name=de-project-sprint-2-server 
 После того как запустится контейнер, у вас будут доступны:
 1. PostgreSQL
 2. VSCode
+
+Данные для работы:
+`0_create_shipping.sql` - скрипт создания изначальной таблицы `shipping`.
+`shipping.csv` - данные изначальной таблицы лога `shipping`.
